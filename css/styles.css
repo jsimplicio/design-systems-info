@@ -21,7 +21,22 @@ body {
   max-width: 768px;
 }
 
-p {
+blockquote {
+  background: #F8F8F8;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 16px;
+}
+
+p, cite {
+  display: block;
   margin-bottom: 16px;
 }
 
@@ -34,7 +49,12 @@ ul {
 
 h1 {
   font-size: 1.25rem;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 16px;
 }
 
 .logo {
@@ -61,4 +81,11 @@ footer p {
 
 a {
   color: black;
+}
+
+hr {
+  background: #DDD;
+  border: none;
+  height: 1px;
+  margin-bottom: 24px;
 }
