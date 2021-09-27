@@ -1,0 +1,28 @@
+{
+  "name": "fx-design-systems-newsletter",
+  "version": "1.0.0",
+  "description": "Firefox Design Systems Newsletter",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirefoxUX/fx-design-systems-newsletter.git"
+  },
+  "keywords": [
+    "firefox",
+    "design",
+    "systems",
+    "newsletter"
+  ],
+  "author": "Jules Simplicio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FirefoxUX/fx-design-systems-newsletter/issues"
+  },
+  "homepage": "https://github.com/FirefoxUX/fx-design-systems-newsletter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
