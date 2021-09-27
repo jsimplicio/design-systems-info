@@ -22,7 +22,8 @@ body {
 }
 
 blockquote {
-  background: #F8F8F8;
+  background: rgb(229, 246, 252);
+  border-radius: 4px;
   margin-bottom: 0;
   padding: 8px;
 }
@@ -87,5 +88,5 @@ hr {
   background: #DDD;
   border: none;
   height: 1px;
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
