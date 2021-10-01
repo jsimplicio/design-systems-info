@@ -42,10 +42,22 @@ p, cite {
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
+  list-style: inside;
+}
+
+li {
   background: #F8F8F8;
   border-radius: 4px;
-  list-style: inside;
+  display: flex;
+  flex-direction: column;
   padding: 8px;
+  margin-bottom: 4px;
+}
+
+li p {
+  margin: 0;
 }
 
 h1 {
@@ -56,20 +68,6 @@ h1 {
 h2 {
   font-size: 1rem;
   margin-bottom: 16px;
-}
-
-.logo {
-  margin-bottom: 16px;
-  width: 32px;
-}
-
-.welcome {
-  background: #FFF;
-  box-shadow: 1px 2px 16px var(--shadow-color);
-  border: 1px solid var(--shadow-color);
-  border-radius: 8px;
-  margin-bottom: 24px;
-  padding: 16px;
 }
 
 footer {
@@ -89,4 +87,22 @@ hr {
   border: none;
   height: 1px;
   margin: 24px 0;
+}
+
+.logo {
+  margin-bottom: 16px;
+  width: 32px;
+}
+
+.welcome {
+  background: #FFF;
+  box-shadow: 1px 2px 16px var(--shadow-color);
+  border: 1px solid var(--shadow-color);
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+.tool {
+  margin-right: 8px;
 }
