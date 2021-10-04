@@ -121,6 +121,11 @@ main {
   padding: 16px;
 }
 
+iframe {
+  border: none;
+  height: 400px;  
+}
+
 .tool {
   margin-right: 8px;
 }
