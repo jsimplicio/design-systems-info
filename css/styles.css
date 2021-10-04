@@ -70,6 +70,11 @@ h2 {
   margin-bottom: 16px;
 }
 
+h4 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
 footer {
   font-size: .825rem;
 }
@@ -94,7 +99,20 @@ hr {
   width: 32px;
 }
 
-.welcome {
+
+time {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  color: rgb(56, 56, 56);
+  display: inline-block;
+  font-size: .725rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-decoration: none;
+  padding: .125rem .25rem;
+}
+
+main {
   background: #FFF;
   box-shadow: 1px 2px 16px var(--shadow-color);
   border: 1px solid var(--shadow-color);
