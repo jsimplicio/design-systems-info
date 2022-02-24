@@ -57,6 +57,10 @@ p, cite {
   display: block;
 }
 
+cite {
+  margin-left: 24px;
+}
+
 ul {
   display: flex;
   flex-direction: column;
