@@ -1,3 +1,13 @@
+@font-face {
+  font-family: FiraCodeRegular;
+  src: url('../fonts/FiraCode-Regular.ttf');
+}
+
+@font-face {
+  font-family: FiraCodeBold;
+  src: url('../fonts/FiraCode-SemiBold.ttf');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,12 +15,14 @@
 }
 
 :root {
+  --border-color: hsl(0deg 0% 0% / 0.05);
   --shadow-color: hsl(0deg 0% 0% / 0.10);
 }
 
 html {
   background: hsl(240deg 20% 98%);
-  font-family: sans-serif;
+  color: rgb(22, 22, 10);
+  font-family: FiraCodeRegular;
   font-size: 18px;
   margin: 64px 8px;
 }
@@ -22,7 +34,7 @@ body {
 }
 
 blockquote {
-  background: rgb(229, 246, 252);
+  background: var(--border-color);
   border-radius: 4px;
   margin-bottom: 0;
   padding: 8px;
@@ -65,11 +77,13 @@ li p {
 }
 
 h1 {
+  font-family: FiraCodeBold;
   font-size: 1.25rem;
   margin-bottom: 16px;
 }
 
 h2 {
+  font-family: FiraCodeBold;
   font-size: 1rem;
   margin-bottom: 16px;
 }
@@ -94,7 +108,7 @@ a {
 }
 
 hr {
-  background: #DDD;
+  background: var(--border-color);
   border: none;
   height: 1px;
   margin: 24px 0;
@@ -120,11 +134,10 @@ time {
 
 main {
   background: #FFF;
-  box-shadow: 1px 2px 16px var(--shadow-color);
-  border: 1px solid var(--shadow-color);
-  border-radius: 8px;
-  margin-bottom: 24px;
-  padding: 16px;
+  box-shadow: 1px 2px 64px var(--shadow-color);
+  border: 1px solid var(--border-color);
+  margin-bottom: 16px;
+  padding: 32px 16px;
 }
 
 iframe {
