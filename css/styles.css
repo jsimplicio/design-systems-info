@@ -50,7 +50,7 @@ figure:not(:last-of-type) {
 }
 
 figcaption {
-  margin: 16px;
+  margin-top: 16px;
 }
 
 p, cite {
@@ -59,6 +59,10 @@ p, cite {
 
 cite {
   margin-left: 24px;
+}
+
+section {
+  margin-bottom: 32px;
 }
 
 ul {
@@ -141,12 +145,17 @@ main {
   box-shadow: 1px 2px 64px var(--shadow-color);
   border: 1px solid var(--border-color);
   margin-bottom: 16px;
-  padding: 32px 16px;
+  padding: 32px 16px 0 16px;
 }
 
 iframe {
   border: none;
   height: 400px;  
+}
+
+.book {
+  border: 1px solid var(--border-color);
+  width: 150px;
 }
 
 .tool {
