@@ -45,6 +45,10 @@ blockquote p {
   padding: 0;
 }
 
+figure {
+  margin-bottom: 24px;
+}
+
 figcaption {
   margin-top: 4px;
 }
@@ -55,10 +59,6 @@ p, cite {
 
 cite {
   margin-left: 16px;
-}
-
-section {
-  margin-bottom: 24px;
 }
 
 ul {
@@ -111,6 +111,10 @@ a {
   color: black;
 }
 
+a.referral {
+  text-decoration: none;
+}
+
 hr {
   background: var(--border-color);
   border: none;
@@ -137,7 +141,6 @@ figcaption {
 
 .books a {
   display: block;
-  margin-bottom: 24px;
 }
 
 .books figure {
