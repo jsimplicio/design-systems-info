@@ -6,11 +6,11 @@ A repository of design systems content.
 
 This project is run on Eleventy. So far it is run on vanilla HTML while I've yet to implement Nunjucks.
 
-Install Eleventy:
+Install project:
 ```shell
 npm i
 ```
-Run ths project:
+Run project:
 ```shell
 npm run start
 ```
