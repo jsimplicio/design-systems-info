@@ -1,1 +1,0 @@
-# Firefox Design Systems Newsletter

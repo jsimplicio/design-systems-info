@@ -1,3 +1,3 @@
 # Design Systems Info
 
-Housing some design systems related work.
+A repository of design systems content

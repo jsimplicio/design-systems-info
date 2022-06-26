@@ -45,12 +45,8 @@ blockquote p {
   padding: 0;
 }
 
-figure:not(:last-of-type) {
-  margin-bottom: 32px;
-}
-
 figcaption {
-  margin-top: 16px;
+  margin-top: 4px;
 }
 
 p, cite {
@@ -58,11 +54,11 @@ p, cite {
 }
 
 cite {
-  margin-left: 24px;
+  margin-left: 16px;
 }
 
 section {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 ul {
@@ -103,7 +99,7 @@ h4 {
 
 footer {
   font-size: .825rem;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 footer p {
@@ -122,42 +118,39 @@ hr {
   margin: 24px 0;
 }
 
-.logo {
-  margin-bottom: 16px;
-  width: 32px;
-}
-
-
-time {
-  background: rgb(255, 255, 255);
-  border-radius: 4px;
-  color: rgb(56, 56, 56);
-  display: inline-block;
-  font-size: .725rem;
-  font-weight: 600;
-  margin-bottom: 4px;
-  text-decoration: none;
-  padding: .125rem .25rem;
-}
-
 main {
   background: #FFF;
   box-shadow: 1px 2px 64px var(--shadow-color);
   border: 1px solid var(--border-color);
   margin-bottom: 16px;
-  padding: 32px 16px 0 16px;
+  padding: 24px 16px 0 16px;
 }
 
-iframe {
-  border: none;
-  height: 400px;  
+figcaption {
+  font-size: .8em;
+}
+
+.books {
+  align-items: flex-start;
+  display: flex;
+}
+
+.books a {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.books figure {
+  width: 250px;
 }
 
 .book {
   border: 1px solid var(--border-color);
-  width: 150px;
+  height: 250px;
 }
 
-.tool {
-  margin-right: 8px;
+@media (max-width: 570px) {
+  .books {
+    display: block;
+  }
 }
