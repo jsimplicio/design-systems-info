@@ -1,0 +1,27 @@
+{
+  "name": "design-systems-info",
+  "version": "0.1.0",
+  "description": "A repository of design systems content",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsimplicio/design-systems-info.git"
+  },
+  "keywords": [
+    "design systems",
+    "design",
+    "system"
+  ],
+  "author": "Jules Simplicio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsimplicio/design-systems-info/issues"
+  },
+  "homepage": "https://github.com/jsimplicio/design-systems-info#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
